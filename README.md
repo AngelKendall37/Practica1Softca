@@ -1,0 +1,37 @@
+# Practica de Git Semillero de SoftCaribbean
+
+###  Comandos usados en el curso de git:
+- touch README.md -> para crear el README
+- git init ->para crear el repo
+- alias arbolito"git log --all --graph --decorate --oneline" -> para estabkecer un alias
+- git tag -a v0.1 -m "comentari" seleccionas el tag es el codigo -> para crear versiones
+- git tag -> ver tags
+- git push origin --tags -> mandar tags
+- git tag -d jombredeltag -> para eliminar el tag
+- git push origin :refs/tgas/nombredeltag -> para que se elimine del git y no se vea
+- git checkout master -> para dirijir a las ramas 
+- git merge master -> para integrar los branch 
+- git pull origin master -> traer cambios/ultima version
+- git push origin master -> enviar cambios 
+- git branch -> para ver las ramas
+- git stah -> para almacenar mensaje
+- git stash branch "name" -> crear rama y asignarle un commit
+- git cherry-pick "agregar el commit" -> con esto se agrega el commit de cualquier branch
+-  git merge "rama" -> fusionar ramas
+- gitk -> ver todo visualmente
+- git ref log -> para ver todo los archivos incluye eliminados
+- para recuperar archivos eliminados se busca el HEAD@
+- para traerlos se usa 
+- git reset --hard "commit"-> se recupera lo eliminado
+- git commit --amend -> arreglar los commit 
+- git log --stat -> ver historial 
+- git shortlog -> ver lo que han echo los demas integrantes 
+- git shortlog -sn -> muestra algunos commit
+- git shortlog -sn --all -> commits borrados los muestra
+- git shortlog -sn --all --no-merges 
+- git config --global alias-status "shortlog -sn --all --no-merges" -> muestra estadisticas de lo que hiceron 
+- git blame "nombre proyecto" -> para ver quien trabajo e hizo que
+- git blame "nombre del comando" -> para saber como funciona
+- git blame archi linea -> para saber quien las hizo o edito
+- git branch -a -> muestra ramas locales y externas
+- git push origin --delete nombredelbranch -> para eliminar la rama remota
